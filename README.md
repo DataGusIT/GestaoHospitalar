@@ -1,6 +1,7 @@
 # Sistema de Gestão Hospitalar Pediátrico
 
-![Captura de Tela](https://github.com/user-attachments/assets/e5afde00-4038-4f8b-a9d2-babfb80fdd40)
+![Captura de Tela](![Captura de tela 2024-12-12 151956](https://github.com/user-attachments/assets/6373aa42-4587-4b37-af9e-26244f219712)
+)
 
 Bem-vindo ao **Sistema de Gestão Hospitalar Pediátrico**! Este projeto foi desenvolvido para gerenciar consultas, exames e procedimentos de forma eficiente e intuitiva. Conta com um sistema de cadastro, login de pacientes, e um portal exclusivo para administradores com funcionalidades completas de gerenciamento.
 
