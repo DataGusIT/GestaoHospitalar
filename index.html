@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestão Hospitalar</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #003366;
+            /* Dark blue background */
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header .container {
+            max-width: 1450px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 60px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav ul {
+            display: flex;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            /* White text color */
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 5px;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #fff;
+            transition: width 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        nav ul li a:hover {
+            color: #e0e0e0;
+            /* Light grey on hover */
+        }
+
+        .banner {
+            background-color: #fff;
+            /* White background */
+            color: #003366;
+            /* Dark blue text color */
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .banner h1 {
+            margin: 0 0 10px;
+            font-size: 2.5em;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .banner .cta {
+            background-color: #003366;
+            /* Dark blue background */
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .banner .cta:hover {
+            background-color: #002244;
+            /* Even darker blue on hover */
+        }
+
+        .table {
+            display: table;
+            width: 100%;
+            margin-top: 20px;
+            border-spacing: 20px;
+        }
+
+        .row {
+            display: table-row;
+        }
+
+        .cell {
+            display: table-cell;
+            vertical-align: top;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .cell:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .cell h3 {
+            margin-top: 0;
+            color: #003366;
+            /* Dark blue color */
+        }
+
+        .cell p {
+            margin: 0;
+        }
+
+        .home-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .introducao {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .introducao h2 {
+            color: #003366;
+            /* Dark blue color */
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            background-color: #003366;
+            /* Dark blue background */
+            color: #fff;
+            border-top: 1px solid #ccc;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./componentes/imagens/logo2.png" alt="logo da empresa Morello com cores azuis" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="includePac/portalPaciente.php">Portal do Paciente</a></li>
+                    <li><a href="./administracao/portalAdmin.php">Portal Empresarial</a></li>
+                    <li><a href="./DAO/login.php">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+
+    <main>
+        <section>
+            <div class="home-img">
+                <img src="./componentes/imagens/hospitaldnv.png" alt="Médica com paciente criança" class="img-home">
+            </div>
+
+            <div class="introducao">
+                <h2>Sobre Nós</h2>
+                <p>No coração da nossa comunidade, a Clínica Pediátrica Morello é um farol de esperança e
+                    cuidado para nossos pequenos pacientes. Nossa missão é proporcionar um ambiente acolhedor e
+                    amoroso, onde as crianças possam prosperar e crescer saudáveis e felizes.
+                    <br> Estamos ansiosos para recebê-lo na Clínica Pediátrica Morello e cuidar
+                    do sorriso e da saúde do seu filho. Junte-se a nós enquanto embarcamos nesta
+                    jornada de crescimento, saúde e felicidade para cada criança que entra pela nossa porta.
+                </p>
+            </div>
+
+            <div class="table">
+                <div class="row">
+                    <div class="cell">
+                        <h3><i class="fas fa-user-md"></i> Equipe</h3>
+                        <p>Nossa equipe é composta por pediatras altamente qualificados, enfermeiros dedicados e pessoal
+                            de apoio atencioso. Trabalhamos juntos para garantir o melhor cuidado possível para cada
+                            criança que atendemos.</p>
+                    </div>
+                    <div class="cell">
+                        <h3><i class="fas fa-stethoscope"></i> Serviços Oferecidos</h3>
+                        <p>Oferecemos uma ampla gama de serviços pediátricos, incluindo consultas de rotina, vacinas,
+                            atendimento emergencial, acompanhamento de doenças crônicas e aconselhamento nutricional.
+                            Estamos comprometidos em fornecer cuidados abrangentes para garantir o bem-estar de cada
+                            criança.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <h3><i class="fas fa-hospital"></i> Infraestrutura</h3>
+                        <p>Nossa clínica conta com instalações modernas e confortáveis, equipadas com tecnologia de
+                            ponta para garantir um atendimento eficiente e eficaz. Temos áreas de espera acolhedoras,
+                            salas de consulta bem equipadas e espaços recreativos para tornar a experiência de nossos
+                            pequenos pacientes o mais agradável possível.</p>
+                    </div>
+                    <div class="cell">
+                        <h3><i class="fas fa-map-marker-alt"></i> Localização</h3>
+                        <p>A Clínica Pediátrica Morello está convenientemente localizada no centro da cidade, com fácil
+                            acesso a transporte público e estacionamento disponível. Estamos prontos para receber você e
+                            sua família de braços abertos.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <h3><i class="fas fa-phone-alt"></i> Contato</h3>
+                        <p>Para agendar uma consulta ou obter mais informações, entre em contato conosco pelo telefone
+                            (11) 1234-5678 ou pelo e-mail contato@clinicapedriatricamorello.com.br. Estamos aqui para
+                            ajudar!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Clínica Pediátrica Morello. Todos os direitos reservados.</p>
+        <p><a href="privacidade.html">Política de Privacidade</a> | <a href="termos.html">Termos de Uso</a></p>
+    </footer>
+</body>
+
+</html>
