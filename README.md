@@ -91,10 +91,10 @@ Sinta-se à vontade para contribuir com o **Sistema de Gestão Hospitalar Pediá
 ## 👨‍💻 Desenvolvido por
 
 - **Gustavo Moreno Souza**
-- ![LinkedIn] [Perfil](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/gustavo-moreno-8a925b26a/)
+- ![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white) [Perfil](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/)
 
 - **Giovanna Joaquim**
-- ![LinkedIn] [Perfil](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/giovanna-j-29651921a/))
+- ![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white) [Perfil](https://www.linkedin.com/in/giovanna-j-29651921a/))
 
 - **Carla Araujo**
-- ![LinkedIn] [Perfil](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/carla-araujo-b50956265/)
+- ![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white) [Perfil](https://www.linkedin.com/in/carla-araujo-b50956265/)
