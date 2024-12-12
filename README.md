@@ -82,9 +82,6 @@ Sinta-se à vontade para contribuir com o **Sistema de Gestão Hospitalar Pediá
 
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
