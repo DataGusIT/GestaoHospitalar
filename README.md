@@ -1,51 +1,92 @@
-# Pediatric Hospital Management System
+# Sistema de Gestão Hospitalar Pediátrico
 
-## Descrição
+![Captura de Tela](https://github.com/user-attachments/assets/e5afde00-4038-4f8b-a9d2-babfb80fdd40)
 
-Esta aplicação web foi desenvolvida para gerenciar as operações de um hospital pediátrico, com foco na gestão de pacientes e consultas. O sistema oferece uma interface intuitiva para gerenciar o registro de pacientes, agendar e acompanhar consultas, além de organizar os dados médicos das crianças atendidas.
+Bem-vindo ao **Sistema de Gestão Hospitalar Pediátrico**! Este projeto foi desenvolvido para gerenciar consultas, exames e procedimentos de forma eficiente e intuitiva. Conta com um sistema de cadastro, login de pacientes, e um portal exclusivo para administradores com funcionalidades completas de gerenciamento.
 
-## Funcionalidades
+## Recursos Principais
 
-- **Cadastro de Pacientes:** Registre novos pacientes no sistema com informações detalhadas, incluindo dados pessoais e histórico médico.
-- **Gestão de Consultas:** Agende, edite e cancele consultas médicas, mantendo um registro organizado e acessível.
-- **Acompanhamento de Pacientes:** Monitore o progresso e o histórico médico dos pacientes, facilitando o acompanhamento contínuo.
-- **Interface Amigável:** A interface foi projetada para ser fácil de usar, garantindo que os funcionários do hospital possam navegar e utilizar o sistema com eficiência.
+- **Agendamento de Consultas**: Marque consultas de forma rápida e prática.
+- **Agendamento de Exames e Procedimentos**: Planeje exames e procedimentos necessários para os pacientes.
+- **Cadastro e Login de Pacientes**: Gerencie os dados dos pacientes com segurança.
+- **Exclusão de Consultas**: Permite apagar consultas desnecessárias.
+- **Portal do Administrador**: Acesso exclusivo para admins com todas as funcionalidades do sistema.
 
 ## Tecnologias Utilizadas
 
-- **PHP:** Utilizado para a lógica de backend, processamento de dados e comunicação com o banco de dados.
-- **JavaScript:** Implementação de funcionalidades dinâmicas no frontend, melhorando a interatividade da interface.
-- **HTML:** Estruturação das páginas da aplicação, garantindo um layout consistente e bem organizado.
-- **CSS:** Estilização e design da interface, proporcionando uma experiência visual agradável e intuitiva.
+- ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) **PHP**
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript**
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML**
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) **CSS**
+- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) **MySQL**
+- ![XAMPP](https://img.shields.io/badge/-XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white) **XAMPP**
 
-## Instalação
+## Instalação e Configuração
 
-1. Clone este repositório:
+Siga os passos abaixo para configurar o sistema:
 
-   ```bash
-   git clone https://github.com/DevGusIT/eng-soft-gestaoHospitalar.git
-   ```
-
-2. Navegue até o diretório do projeto:
+1. Clone o repositório:
 
    ```bash
-   cd eng-soft-gestaoHospitalar.git
+   git clone https://github.com/seu-usuario/sistema-hospitalar-pediatrico.git
    ```
 
-3. Configure o ambiente de desenvolvimento, garantindo que você tenha o servidor PHP e um banco de dados compatível.
+2. Inicie o XAMPP e habilite o **Apache** e o **MySQL**.
 
-4. Importe o banco de dados e ajuste de acordo com as configurações de conexão no arquivo de configuração do projeto.
+3. Importe o banco de dados:
 
-5. Inicie o servidor local para testar a aplicação.
+   - Abra o phpMyAdmin no navegador.
+   - Crie um novo banco de dados chamado `hospital_pediatrico`.
+   - Importe o arquivo SQL fornecido no diretório `database`.
+
+4. Configure o arquivo de conexão no diretório `config/db.php`:
+
+   ```php
+   <?php
+   $host = 'localhost';
+   $user = 'root';
+   $password = '';
+   $database = 'hospital_pediatrico';
+   ?>
+   ```
+
+5. Inicie o servidor local:
+
+   - Coloque o projeto na pasta `htdocs` do XAMPP.
+   - Acesse o sistema no navegador: `http://localhost/sistema-hospitalar-pediatrico`.
 
 ## Contribuição
 
-Se você deseja contribuir com o desenvolvimento deste projeto, sinta-se à vontade para fazer um fork, criar um branch para suas alterações e enviar um pull request. Sugestões, correções de bugs e novas funcionalidades são bem-vindas!
+Sinta-se à vontade para contribuir com o **Sistema de Gestão Hospitalar Pediátrico**! Para isso, siga os passos:
+
+1. Fork este repositório.
+
+2. Crie um branch para a sua feature ou correção:
+
+   ```bash
+   git checkout -b minha-feature
+   ```
+
+3. Faça as alterações desejadas e commit:
+
+   ```bash
+   git commit -m "Adicionei uma nova feature"
+   ```
+
+4. Envie suas alterações:
+
+   ```bash
+   git push origin minha-feature
+   ```
+
+5. Abra um Pull Request.
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade para usar, modificar e distribuir conforme necessário.
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Para mais informações ou questões, entre em contato através do [GitHub Issues](https://github.com/DevGusIT/eng-soft-gestaoHospitalar.io/issues).
+- ![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white) g.moreno.souza05@gmail.com
+- ![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white) [Meu Perfil](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/)
+
