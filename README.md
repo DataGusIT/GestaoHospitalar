@@ -46,7 +46,7 @@ O **Sistema de Gestão Hospitalar Pediátrico** foi cuidadosamente projetado par
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top">
+    <td width="50%" valign="top">
       <h3>👑 Portal Administrativo</h3>
       <ul>
         <li><b>Dashboard Analítico</b> - Métricas de desempenho em tempo real</li>
