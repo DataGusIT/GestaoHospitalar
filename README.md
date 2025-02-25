@@ -35,7 +35,6 @@ O **Sistema de Gestão Hospitalar Pediátrico** foi cuidadosamente projetado par
         <li><b>Consultas Inteligentes</b> - Sistema de agendamento que evita conflitos de horário</li>
         <li><b>Exames Programados</b> - Integração com laboratórios para resultados mais rápidos</li>
         <li><b>Procedimentos Médicos</b> - Preparação antecipada de salas e equipamentos</li>
-        <li><b>Lembretes Automatizados</b> - Notificações para pacientes e responsáveis</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -43,21 +42,10 @@ O **Sistema de Gestão Hospitalar Pediátrico** foi cuidadosamente projetado par
       <ul>
         <li><b>Cadastro Simplificado</b> - Processo de registro otimizado para famílias</li>
         <li><b>Histórico Completo</b> - Visualização de consultas anteriores e tratamentos</li>
-        <li><b>Documentos Digitais</b> - Armazenamento seguro de exames e receitas</li>
-        <li><b>Comunicação Direta</b> - Canal para dúvidas e orientações</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>👩‍⚕️ Área Médica</h3>
-      <ul>
-        <li><b>Prontuário Digital</b> - Acesso rápido ao histórico médico completo</li>
-        <li><b>Prescrição Eletrônica</b> - Eliminação de erros por ilegibilidade</li>
-        <li><b>Histórico de Crescimento</b> - Gráficos evolutivos de desenvolvimento</li>
-        <li><b>Alertas de Alergias</b> - Sistema de segurança para medicações</li>
-      </ul>
-    </td>
     <td width="50%" valign="top">
       <h3>👑 Portal Administrativo</h3>
       <ul>
@@ -69,14 +57,6 @@ O **Sistema de Gestão Hospitalar Pediátrico** foi cuidadosamente projetado par
     </td>
   </tr>
 </table>
-
-## 🚀 Demonstração
-
-<div align="center">
-  <img src="/api/placeholder/800/400" alt="Dashboard do Sistema" style="border-radius: 8px; margin: 10px;">
-  <br>
-  <i>O dashboard intuitivo proporciona uma visão geral instantânea de todas as atividades hospitalares</i>
-</div>
 
 ## 🛠️ Tecnologias
 
@@ -176,7 +156,7 @@ graph TD
     <td align="center">
       <img src="/api/placeholder/150/150" width="100px" alt="Gustavo Moreno"/><br />
       <b>Gustavo Moreno Souza</b><br/>
-      <sub>Desenvolvedor Full Stack</sub><br/>
+      <sub>Estudante</sub><br/>
       <a href="https://www.linkedin.com/in/gustavo-moreno-8a925b26a/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
       </a>
@@ -184,7 +164,7 @@ graph TD
     <td align="center">
       <img src="/api/placeholder/150/150" width="100px" alt="Giovanna Joaquim"/><br />
       <b>Giovanna Joaquim</b><br/>
-      <sub>UX/UI Designer</sub><br/>
+      <sub>Estudante</sub><br/>
       <a href="https://www.linkedin.com/in/giovanna-j-29651921a/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
       </a>
@@ -192,7 +172,7 @@ graph TD
     <td align="center">
       <img src="/api/placeholder/150/150" width="100px" alt="Carla Araujo"/><br />
       <b>Carla Araujo</b><br/>
-      <sub>Database Developer</sub><br/>
+      <sub>Estudante</sub><br/>
       <a href="https://www.linkedin.com/in/carla-araujo-b50956265/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
       </a>
