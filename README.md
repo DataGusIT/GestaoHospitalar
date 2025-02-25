@@ -46,7 +46,7 @@ O **Sistema de Gestão Hospitalar Pediátrico** foi cuidadosamente projetado par
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>👑 Portal Administrativo</h3>
       <ul>
         <li><b>Dashboard Analítico</b> - Métricas de desempenho em tempo real</li>
@@ -209,18 +209,7 @@ Consulte nosso [guia de contribuição](CONTRIBUTING.md) para detalhes completos
 <div align="center">
   
 [![Email](https://img.shields.io/badge/-g.moreno.souza05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:g.moreno.souza05@gmail.com)
-[![Website](https://img.shields.io/badge/-sistemahosp.com.br-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sistemahosp.com.br)
 [![LinkedIn](https://img.shields.io/badge/-Gustavo_Moreno-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/)
-
-</div>
-
-## 📊 Estatísticas do Projeto
-
-<div align="center">
-
-![Issues](https://img.shields.io/github/issues/seu-usuario/sistema-hospitalar-pediatrico?style=for-the-badge&logo=github&color=yellow)
-![Pull Requests](https://img.shields.io/github/issues-pr/seu-usuario/sistema-hospitalar-pediatrico?style=for-the-badge&logo=github&color=brightgreen)
-![Progresso](https://progress-bar.dev/85/?title=Concluído&width=400&color=54aeff)
 
 </div>
 
