@@ -1,100 +1,59 @@
-<div align="center">
+# Sistema de Gestão Hospitalar Pediátrico
 
-# 🏥 Sistema de Gestão Hospitalar Pediátrico
+> Plataforma completa para gestão hospitalar focada no atendimento pediátrico
 
-<img src="https://github.com/user-attachments/assets/6373aa42-4587-4b37-af9e-26244f219712" alt="Sistema de Gestão Hospitalar Pediátrico" width="700px" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+[![Status](https://img.shields.io/badge/Status-Em%20Finalizado-success)](https://github.com/DataGusIT/sistema-hospitalar-pediatrico)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/seu-usuario/sistema-hospitalar-pediatrico/releases)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4)](https://php.net/)
 
-[![Status](https://img.shields.io/badge/Status-Em%20Produção-success?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/seu-usuario/sistema-hospitalar-pediatrico)
-[![Versão](https://img.shields.io/badge/Versão-1.0.0-informational?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/seu-usuario/sistema-hospitalar-pediatrico/releases)
-[![Licença](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge&logo=bookstack&logoColor=white)](LICENSE)
+## Sobre
 
-</div>
+O Sistema de Gestão Hospitalar Pediátrico é uma solução completa desenvolvida para otimizar o fluxo de trabalho em ambientes hospitalares especializados no atendimento infantil. O sistema prioriza a eficiência operacional e uma experiência mais humanizada para pacientes e famílias.
 
-<p align="center">
-  <i>Um sistema completo para gestão hospitalar focado no atendimento pediátrico, tornando a experiência da criança mais segura e acolhedora.</i>
-</p>
+## Funcionalidades
 
----
+### 🗓️ Gestão de Agendamentos
+- Agendamento inteligente de consultas com prevenção de conflitos
+- Programação automatizada de exames laboratoriais
+- Coordenação de procedimentos médicos e recursos
 
-## 📋 Visão Geral
+### 👨‍👩‍👧‍👦 Portal do Paciente
+- Cadastro simplificado para famílias
+- Histórico médico completo e acessível
+- Acompanhamento de consultas e tratamentos
 
-O **Sistema de Gestão Hospitalar Pediátrico** foi cuidadosamente projetado para otimizar o fluxo de trabalho em ambientes hospitalares focados no atendimento infantil. Nosso objetivo é proporcionar uma plataforma que não apenas gerencie informações médicas com precisão, mas também contribua para uma experiência mais humana e acolhedora para os pequenos pacientes e suas famílias.
+### 👑 Portal Administrativo
+- Dashboard com métricas em tempo real
+- Gestão de equipes e escalas médicas
+- Relatórios customizáveis e exportação de dados
+- Controle financeiro integrado
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Pacientes%20Atendidos-1000%2B-00b4d8?style=for-the-badge&logo=simpleanalytics&logoColor=white">
-  <img src="https://img.shields.io/badge/Tempo%20de%20Espera-Reduzido%20em%2060%25-4cc9f0?style=for-the-badge&logo=clockify&logoColor=white">
-</div>
+## Tecnologias
 
-## 🌟 Recursos Principais
+### Backend
+- **PHP 8.1+** - Linguagem principal
+- **MySQL 8.0** - Banco de dados
+- **XAMPP** - Ambiente de desenvolvimento
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🗓️ Gestão de Agendamentos</h3>
-      <ul>
-        <li><b>Consultas Inteligentes</b> - Sistema de agendamento que evita conflitos de horário</li>
-        <li><b>Exames Programados</b> - Integração com laboratórios para resultados mais rápidos</li>
-        <li><b>Procedimentos Médicos</b> - Preparação antecipada de salas e equipamentos</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>👨‍👩‍👧‍👦 Portal do Paciente</h3>
-      <ul>
-        <li><b>Cadastro Simplificado</b> - Processo de registro otimizado para famílias</li>
-        <li><b>Histórico Completo</b> - Visualização de consultas anteriores e tratamentos</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>👑 Portal Administrativo</h3>
-      <ul>
-        <li><b>Dashboard Analítico</b> - Métricas de desempenho em tempo real</li>
-        <li><b>Gestão de Equipes</b> - Controle de escalas e especialidades</li>
-        <li><b>Relatórios Customizados</b> - Exportação de dados para análise</li>
-        <li><b>Controle Financeiro</b> - Integração com sistemas de faturamento</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### Frontend
+- **HTML5** - Estrutura semântica
+- **CSS3** - Design responsivo
+- **JavaScript ES6** - Interatividade
 
-## 🛠️ Tecnologias
+### Arquitetura
+- **MVC Pattern** - Separação de responsabilidades
+- **RESTful APIs** - Comunicação entre camadas
+- **Responsive Design** - Compatibilidade multi-dispositivo
 
-<div align="center">
-  <img src="https://img.shields.io/badge/PHP-8.1-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/HTML5-Semântico-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-Responsivo-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-8.0-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/XAMPP-8.1-%23FB7A24.svg?style=for-the-badge&logo=xampp&logoColor=white">
-</div>
+## Pré-requisitos
 
-## 📊 Arquitetura do Sistema
+- [XAMPP 8.1+](https://www.apachefriends.org/) ou servidor web equivalente
+- [PHP 8.1+](https://php.net/downloads.php)
+- [MySQL 8.0+](https://dev.mysql.com/downloads/mysql/)
+- Navegador web moderno
 
-```mermaid
-graph TD
-    A[Interface do Usuário] --> B[Camada de Controle]
-    B --> C[Camada de Serviços]
-    C --> D[Camada de Acesso a Dados]
-    D --> E[(Banco de Dados MySQL)]
-    
-    F[Portal do Paciente] --> A
-    G[Portal Administrativo] --> A
-    
-```
-
-## ⚙️ Instalação e Configuração
-
-<details>
-<summary><b>🔍 Clique para expandir as instruções detalhadas</b></summary>
-
-### Pré-requisitos
-- XAMPP 8.1 ou superior
-- PHP 8.1 ou superior
-- MySQL 8.0 ou superior
-- Navegador web atualizado
-
-### Passo a Passo
+## Instalação
 
 1. **Clone o repositório**
    ```bash
@@ -102,115 +61,141 @@ graph TD
    cd sistema-hospitalar-pediatrico
    ```
 
-2. **Configure o ambiente XAMPP**
-   - Inicie o painel de controle do XAMPP
-   - Ative os módulos Apache e MySQL
-   - Verifique se as portas estão configuradas corretamente (80 e 3306 por padrão)
+2. **Configure o XAMPP**
+   - Inicie Apache e MySQL no painel de controle
+   - Verifique as portas 80 (Apache) e 3306 (MySQL)
 
-3. **Prepare o banco de dados**
-   - Acesse: http://localhost/phpmyadmin
-   - Crie um novo banco de dados: `hospital_pediatrico`
-   - Selecione a codificação: `utf8mb4_unicode_ci`
-   - Importe o arquivo de esquema: `database/schema.sql`
-   - Importe os dados iniciais: `database/seed.sql`
+3. **Preparar banco de dados**
+   ```bash
+   # Acesse http://localhost/phpmyadmin
+   # Crie o banco: hospital_pediatrico
+   # Importe: database/schema.sql
+   # Importe: database/seed.sql
+   ```
 
-4. **Configure as credenciais de acesso**
+4. **Configurar conexão**
    ```php
-   // Edite o arquivo config/db.php
+   // config/db.php
    <?php
    $host = 'localhost';
-   $user = 'root';  // Ou seu usuário personalizado
-   $password = '';  // Sua senha se definida
+   $user = 'root';
+   $password = '';
    $database = 'hospital_pediatrico';
-   $port = 3306;    // Porta padrão MySQL
+   $port = 3306;
    ?>
    ```
 
-5. **Configure o projeto no servidor web**
-   - Mova todos os arquivos para: `C:/xampp/htdocs/sistema-hospitalar-pediatrico`
-   - Ajuste as permissões de arquivos se estiver em ambiente Linux:
-     ```bash
-     chmod -R 755 .
-     chmod -R 777 uploads/
-     ```
+5. **Instalar aplicação**
+   ```bash
+   # Mover para diretório web
+   cp -r . /xampp/htdocs/sistema-hospitalar-pediatrico/
+   
+   # Configurar permissões (Linux/Mac)
+   chmod -R 755 .
+   chmod -R 777 uploads/
+   ```
 
-6. **Acesse o sistema**
-   - Abra seu navegador e acesse: http://localhost/sistema-hospitalar-pediatrico
-   - Faça login com as credenciais padrão:
-     - Administrador: carlaplr@hospital.com / senha: root123
-     - Paciente demonstração: familia@exemplo.com / senha: familia123
+6. **Acessar sistema**
+   ```
+   http://localhost/sistema-hospitalar-pediatrico
+   ```
 
-7. **Personalize as configurações**
-   - Acesse o painel administrativo
-   - Atualize as informações do hospital
-   - Configure os horários de funcionamento
+### Credenciais de Teste
 
-</details>
+**Administrador:**
+- Email: `carlaplr@hospital.com`
+- Senha: `root123`
 
-## 👥 Equipe de Desenvolvimento
+**Paciente Demo:**
+- Email: `familia@exemplo.com`
+- Senha: `familia123`
 
-<div align="center">
+## Estrutura do Projeto
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="/api/placeholder/150/150" width="100px" alt="Gustavo Moreno"/><br />
-      <b>Gustavo Moreno Souza</b><br/>
-      <sub>Estudante</sub><br/>
-      <a href="https://www.linkedin.com/in/gustavo-moreno-8a925b26a/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
-      </a>
-    </td>
-    <td align="center">
-      <img src="/api/placeholder/150/150" width="100px" alt="Giovanna Joaquim"/><br />
-      <b>Giovanna Joaquim</b><br/>
-      <sub>Estudante</sub><br/>
-      <a href="https://www.linkedin.com/in/giovanna-j-29651921a/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
-      </a>
-    </td>
-    <td align="center">
-      <img src="/api/placeholder/150/150" width="100px" alt="Carla Araujo"/><br />
-      <b>Carla Araujo</b><br/>
-      <sub>Estudante</sub><br/>
-      <a href="https://www.linkedin.com/in/carla-araujo-b50956265/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
-      </a>
-    </td>
-  </tr>
-</table>
+```
+sistema-hospitalar-pediatrico/
+├── config/              # Configurações do sistema
+├── controllers/         # Controladores MVC
+├── models/             # Modelos de dados
+├── views/              # Templates e interfaces
+├── assets/             # CSS, JS, imagens
+├── database/           # Scripts SQL
+├── uploads/            # Arquivos enviados
+└── includes/           # Arquivos auxiliares
+```
 
-</div>
+## Arquitetura
 
-## 📈 Roadmap
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│  Portal Paciente│    │Portal Administr.│    │   Dashboard     │
+└─────────┬───────┘    └─────────┬───────┘    └─────────┬───────┘
+          │                      │                      │
+          └──────────────────────┼──────────────────────┘
+                                 │
+                    ┌─────────────┴───────────┐
+                    │   Camada Controle       │
+                    └─────────────┬───────────┘
+                                 │
+                    ┌─────────────┴───────────┐
+                    │   Camada Serviços       │
+                    └─────────────┬───────────┘
+                                 │
+                    ┌─────────────┴───────────┐
+                    │ Camada Acesso Dados     │
+                    └─────────────┬───────────┘
+                                 │
+                    ┌─────────────┴───────────┐
+                    │    MySQL Database       │
+                    └─────────────────────────┘
+```
 
-- [x] Versão 1.0 - Sistema Base
-- [ ] Versão 1.1 - Integração com Laboratórios
-- [ ] Versão 1.2 - Aplicativo Mobile para Pacientes
-- [ ] Versão 1.3 - Telemedicina para Consultas Remotas
-- [ ] Versão 2.0 - Inteligência Artificial para Análise de Padrões
+## Equipe
 
-## 🤝 Contribuindo
+| Nome | Função | LinkedIn |
+|------|--------|----------|
+| **Gustavo Moreno Souza** | Desenvolvedor Full-Stack | [LinkedIn](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/) |
+| **Giovanna Joaquim** | Desenvolvedora Frontend | [LinkedIn](https://www.linkedin.com/in/giovanna-j-29651921a/) |
+| **Carla Araujo** | Desenvolvedora Backend | [LinkedIn](https://www.linkedin.com/in/carla-araujo-b50956265/) |
 
-<details>
-<summary><b>Como contribuir com o projeto</b></summary>
+## Roadmap
 
-1. 🍴 Faça um fork do projeto
-2. 🌿 Crie sua branch de feature (`git checkout -b feature/recurso-incrivel`)
-3. 📝 Faça suas alterações e commit (`git commit -m '✨ Adiciona novo recurso incrível'`)
-4. 📤 Faça push para a branch (`git push origin feature/recurso-incrivel`)
-5. 🔁 Abra um Pull Request
+- [x] **v1.0** - Sistema base com funcionalidades essenciais
+- [ ] **v1.1** - Integração com laboratórios externos
+- [ ] **v1.2** - Aplicativo mobile para pacientes
+- [ ] **v1.3** - Módulo de telemedicina
+- [ ] **v2.0** - IA para análise preditiva
 
-Consulte nosso [guia de contribuição](CONTRIBUTING.md) para detalhes completos sobre nosso código de conduta e processo para enviar pull requests.
-</details>
+## Contribuição
 
-## 📬 Contato
+Contribuições são bem-vindas! Para contribuir:
 
-<div align="center">
-  
-[![Email](https://img.shields.io/badge/-g.moreno.souza05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:g.moreno.souza05@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Gustavo_Moreno-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/)
+1. Fork o projeto
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
 
-</div>
+### Diretrizes
+
+- Siga os padrões de código existentes
+- Teste todas as funcionalidades antes do commit
+- Documente mudanças significativas
+- Use mensagens de commit descritivas
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Suporte
+
+Para suporte técnico ou dúvidas:
+
+- **Email**: [g.moreno.souza05@gmail.com](mailto:g.moreno.souza05@gmail.com)
+- **LinkedIn**: [Gustavo Moreno](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/)
 
 ---
+
+<div align="center">
+  Desenvolvido por Gustavo Moreno, Carla Cristina e Giovanna Joaquim
+</div>
