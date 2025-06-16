@@ -154,9 +154,9 @@ sistema-hospitalar-pediatrico/
 
 | Nome | Função | LinkedIn |
 |------|--------|----------|
-| **Gustavo Moreno Souza** | Desenvolvedor Full-Stack | [LinkedIn](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/) |
-| **Giovanna Joaquim** | Desenvolvedora Frontend | [LinkedIn](https://www.linkedin.com/in/giovanna-j-29651921a/) |
-| **Carla Araujo** | Desenvolvedora Backend | [LinkedIn](https://www.linkedin.com/in/carla-araujo-b50956265/) |
+| **Gustavo Moreno Souza** | Desenvolvedor Front| [LinkedIn](https://www.linkedin.com/in/gustavo-moreno-8a925b26a/) |
+| **Giovanna Joaquim** | Desenvolvedora Back | [LinkedIn](https://www.linkedin.com/in/giovanna-j-29651921a/) |
+| **Carla Araujo** | Documentação | [LinkedIn](https://www.linkedin.com/in/carla-araujo-b50956265/) |
 
 ## Roadmap
 
